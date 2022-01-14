@@ -4,7 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 
-        System.out.println("ss");
-	// write your code here
+        Person p = new Son();
+        System.out.println(p.str);
+        p.method();
+        System.out.println(p.staticStr);
+        p.staticMethod();
     }
 }
